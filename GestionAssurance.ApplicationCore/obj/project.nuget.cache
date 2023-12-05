@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "slN9GCJc0K9srwZE+/LBP+ezU4b8YnNXQK3XA/xp8CFBrWJoYLjeIWrfYM9rj+v9v3nmx7KlQZu9q/ia/cBsnQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\chalg\\OneDrive\\Bureau\\GestionAssurance\\Examen.ApplicationCore\\GestionAssurance.ApplicationCore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\chalg\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.3\\microsoft.entityframeworkcore.abstractions.7.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

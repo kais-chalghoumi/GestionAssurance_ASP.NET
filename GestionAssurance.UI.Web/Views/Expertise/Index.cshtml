@@ -1,0 +1,76 @@
+﻿@model IEnumerable<GestionAssurance.ApplicationCore.Domain.Expertise>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+<form asp-action="index">
+    <fieldset>
+        <legend> Recherche</legend>
+        Choisissez un type d'assurance
+
+        <select class="form-control" name="typeAssurance"
+                asp-items="Html.GetEnumSelectList<GestionAssurance.ApplicationCore.Domain.TypeAssurance>()"></select>
+
+        <input type="submit" value="Serach" />
+    </fieldset>
+</form>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DateExpertise)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AvisTechnique)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MontantEstime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Duree)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sinistre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Expert)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateExpertise)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AvisTechnique)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MontantEstime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Duree)
+            </td>
+            <td>
+                    @Html.DisplayFor(modelItem => item.Sinistre.Description)
+            </td>
+            <td>
+                    @Html.DisplayFor(modelItem => item.Expert.DomaineExpertise)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
