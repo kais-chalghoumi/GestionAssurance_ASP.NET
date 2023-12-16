@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chalg\\OneDrive\\Bureau\\GestionAssurance\\Examen.UI.Web\\GestionAssurance.UI.Web.csproj": {}
+    "C:\\Users\\chalg\\OneDrive\\Bureau\\.NET\\GestionAssurance_ASP.NET\\GestionAssurance.UI.Web\\GestionAssurance.UI.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chalg\\OneDrive\\Bureau\\GestionAssurance\\Examen.ApplicationCore\\GestionAssurance.ApplicationCore.csproj": {
+    "C:\\Users\\chalg\\OneDrive\\Bureau\\.NET\\GestionAssurance_ASP.NET\\GestionAssurance.ApplicationCore\\GestionAssurance.ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chalg\\OneDrive\\Bureau\\GestionAssurance\\Examen.ApplicationCore\\GestionAssurance.ApplicationCore.csproj",
+        "projectUniqueName": "C:\\Users\\chalg\\OneDrive\\Bureau\\.NET\\GestionAssurance_ASP.NET\\GestionAssurance.ApplicationCore\\GestionAssurance.ApplicationCore.csproj",
         "projectName": "GestionAssurance.ApplicationCore",
-        "projectPath": "C:\\Users\\chalg\\OneDrive\\Bureau\\GestionAssurance\\Examen.ApplicationCore\\GestionAssurance.ApplicationCore.csproj",
+        "projectPath": "C:\\Users\\chalg\\OneDrive\\Bureau\\.NET\\GestionAssurance_ASP.NET\\GestionAssurance.ApplicationCore\\GestionAssurance.ApplicationCore.csproj",
         "packagesPath": "C:\\Users\\chalg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chalg\\OneDrive\\Bureau\\GestionAssurance\\Examen.ApplicationCore\\obj\\",
+        "outputPath": "C:\\Users\\chalg\\OneDrive\\Bureau\\.NET\\GestionAssurance_ASP.NET\\GestionAssurance.ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\chalg\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
             "Microsoft.EntityFrameworkCore.Abstractions": {
               "target": "Package",
               "version": "[7.0.3, )"
@@ -65,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\chalg\\OneDrive\\Bureau\\GestionAssurance\\Examen.Infrastructure\\GestionAssurance.Infrastructure.csproj": {
+    "C:\\Users\\chalg\\OneDrive\\Bureau\\.NET\\GestionAssurance_ASP.NET\\GestionAssurance.Infrastructure\\GestionAssurance.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chalg\\OneDrive\\Bureau\\GestionAssurance\\Examen.Infrastructure\\GestionAssurance.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\chalg\\OneDrive\\Bureau\\.NET\\GestionAssurance_ASP.NET\\GestionAssurance.Infrastructure\\GestionAssurance.Infrastructure.csproj",
         "projectName": "GestionAssurance.Infrastructure",
-        "projectPath": "C:\\Users\\chalg\\OneDrive\\Bureau\\GestionAssurance\\Examen.Infrastructure\\GestionAssurance.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\chalg\\OneDrive\\Bureau\\.NET\\GestionAssurance_ASP.NET\\GestionAssurance.Infrastructure\\GestionAssurance.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\chalg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chalg\\OneDrive\\Bureau\\GestionAssurance\\Examen.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\chalg\\OneDrive\\Bureau\\.NET\\GestionAssurance_ASP.NET\\GestionAssurance.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\chalg\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -89,8 +93,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\chalg\\OneDrive\\Bureau\\GestionAssurance\\Examen.ApplicationCore\\GestionAssurance.ApplicationCore.csproj": {
-                "projectPath": "C:\\Users\\chalg\\OneDrive\\Bureau\\GestionAssurance\\Examen.ApplicationCore\\GestionAssurance.ApplicationCore.csproj"
+              "C:\\Users\\chalg\\OneDrive\\Bureau\\.NET\\GestionAssurance_ASP.NET\\GestionAssurance.ApplicationCore\\GestionAssurance.ApplicationCore.csproj": {
+                "projectPath": "C:\\Users\\chalg\\OneDrive\\Bureau\\.NET\\GestionAssurance_ASP.NET\\GestionAssurance.ApplicationCore\\GestionAssurance.ApplicationCore.csproj"
               }
             }
           }
@@ -118,6 +122,8 @@
               "version": "[7.0.3, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.3, )"
             }
@@ -142,14 +148,14 @@
         }
       }
     },
-    "C:\\Users\\chalg\\OneDrive\\Bureau\\GestionAssurance\\Examen.UI.Web\\GestionAssurance.UI.Web.csproj": {
+    "C:\\Users\\chalg\\OneDrive\\Bureau\\.NET\\GestionAssurance_ASP.NET\\GestionAssurance.UI.Web\\GestionAssurance.UI.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chalg\\OneDrive\\Bureau\\GestionAssurance\\Examen.UI.Web\\GestionAssurance.UI.Web.csproj",
+        "projectUniqueName": "C:\\Users\\chalg\\OneDrive\\Bureau\\.NET\\GestionAssurance_ASP.NET\\GestionAssurance.UI.Web\\GestionAssurance.UI.Web.csproj",
         "projectName": "GestionAssurance.UI.Web",
-        "projectPath": "C:\\Users\\chalg\\OneDrive\\Bureau\\GestionAssurance\\Examen.UI.Web\\GestionAssurance.UI.Web.csproj",
+        "projectPath": "C:\\Users\\chalg\\OneDrive\\Bureau\\.NET\\GestionAssurance_ASP.NET\\GestionAssurance.UI.Web\\GestionAssurance.UI.Web.csproj",
         "packagesPath": "C:\\Users\\chalg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chalg\\OneDrive\\Bureau\\GestionAssurance\\Examen.UI.Web\\obj\\",
+        "outputPath": "C:\\Users\\chalg\\OneDrive\\Bureau\\.NET\\GestionAssurance_ASP.NET\\GestionAssurance.UI.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\chalg\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -166,11 +172,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\chalg\\OneDrive\\Bureau\\GestionAssurance\\Examen.ApplicationCore\\GestionAssurance.ApplicationCore.csproj": {
-                "projectPath": "C:\\Users\\chalg\\OneDrive\\Bureau\\GestionAssurance\\Examen.ApplicationCore\\GestionAssurance.ApplicationCore.csproj"
+              "C:\\Users\\chalg\\OneDrive\\Bureau\\.NET\\GestionAssurance_ASP.NET\\GestionAssurance.ApplicationCore\\GestionAssurance.ApplicationCore.csproj": {
+                "projectPath": "C:\\Users\\chalg\\OneDrive\\Bureau\\.NET\\GestionAssurance_ASP.NET\\GestionAssurance.ApplicationCore\\GestionAssurance.ApplicationCore.csproj"
               },
-              "C:\\Users\\chalg\\OneDrive\\Bureau\\GestionAssurance\\Examen.Infrastructure\\GestionAssurance.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\chalg\\OneDrive\\Bureau\\GestionAssurance\\Examen.Infrastructure\\GestionAssurance.Infrastructure.csproj"
+              "C:\\Users\\chalg\\OneDrive\\Bureau\\.NET\\GestionAssurance_ASP.NET\\GestionAssurance.Infrastructure\\GestionAssurance.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\chalg\\OneDrive\\Bureau\\.NET\\GestionAssurance_ASP.NET\\GestionAssurance.Infrastructure\\GestionAssurance.Infrastructure.csproj"
               }
             }
           }
@@ -190,10 +196,6 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.3, )"
-            },
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-              "target": "Package",
-              "version": "[6.0.13, )"
             }
           },
           "imports": [

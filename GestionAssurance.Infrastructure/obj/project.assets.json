@@ -65,7 +65,7 @@
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
-          "lib/net6.0/Humanizer.dll": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
@@ -212,7 +212,7 @@
           "Mono.TextTemplating": "2.2.1"
         },
         "compile": {
-          "lib/net6.0/Microsoft.EntityFrameworkCore.Design.dll": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
@@ -391,7 +391,7 @@
           "System.Text.Json": "7.0.0"
         },
         "compile": {
-          "lib/net6.0/Microsoft.Extensions.DependencyModel.dll": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
@@ -693,7 +693,7 @@
           "System.CodeDom": "4.4.0"
         },
         "compile": {
-          "lib/netstandard2.0/Mono.TextTemplating.dll": {}
+          "lib/netstandard2.0/_._": {}
         },
         "runtime": {
           "lib/netstandard2.0/Mono.TextTemplating.dll": {}
@@ -711,7 +711,7 @@
       "System.CodeDom/4.4.0": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.0/System.CodeDom.dll": {
+          "ref/netstandard2.0/_._": {
             "related": ".xml"
           }
         },
@@ -1219,6 +1219,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.3",
           "Microsoft.EntityFrameworkCore.Abstractions": "7.0.3"
         },
         "compile": {
@@ -2127,11 +2128,12 @@
       "path": "microsoft.netcore.targets/1.1.0",
       "files": [
         ".nupkg.metadata",
-        "Microsoft.NETCore.Targets.1.1.0.nupkg.sha512",
-        "Microsoft.NETCore.Targets.nuspec",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
+        "microsoft.netcore.targets.1.1.0.nupkg.sha512",
+        "microsoft.netcore.targets.nuspec",
         "runtime.json"
       ]
     },
@@ -2441,8 +2443,7 @@
       "path": "system.globalization/4.3.0",
       "files": [
         ".nupkg.metadata",
-        "System.Globalization.4.3.0.nupkg.sha512",
-        "System.Globalization.nuspec",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -2499,7 +2500,9 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.globalization.4.3.0.nupkg.sha512",
+        "system.globalization.nuspec"
       ]
     },
     "System.IdentityModel.Tokens.Jwt/6.21.0": {
@@ -2529,8 +2532,7 @@
       "path": "system.io/4.3.0",
       "files": [
         ".nupkg.metadata",
-        "System.IO.4.3.0.nupkg.sha512",
-        "System.IO.nuspec",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -2600,7 +2602,9 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.io.4.3.0.nupkg.sha512",
+        "system.io.nuspec"
       ]
     },
     "System.Memory/4.5.4": {
@@ -2697,8 +2701,7 @@
       "path": "system.reflection/4.3.0",
       "files": [
         ".nupkg.metadata",
-        "System.Reflection.4.3.0.nupkg.sha512",
-        "System.Reflection.nuspec",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -2768,7 +2771,9 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.reflection.4.3.0.nupkg.sha512",
+        "system.reflection.nuspec"
       ]
     },
     "System.Reflection.Primitives/4.3.0": {
@@ -2777,8 +2782,7 @@
       "path": "system.reflection.primitives/4.3.0",
       "files": [
         ".nupkg.metadata",
-        "System.Reflection.Primitives.4.3.0.nupkg.sha512",
-        "System.Reflection.Primitives.nuspec",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -2824,7 +2828,9 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.reflection.primitives.4.3.0.nupkg.sha512",
+        "system.reflection.primitives.nuspec"
       ]
     },
     "System.Resources.ResourceManager/4.3.0": {
@@ -2833,8 +2839,7 @@
       "path": "system.resources.resourcemanager/4.3.0",
       "files": [
         ".nupkg.metadata",
-        "System.Resources.ResourceManager.4.3.0.nupkg.sha512",
-        "System.Resources.ResourceManager.nuspec",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -2880,7 +2885,9 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.resources.resourcemanager.4.3.0.nupkg.sha512",
+        "system.resources.resourcemanager.nuspec"
       ]
     },
     "System.Runtime/4.3.0": {
@@ -2889,8 +2896,7 @@
       "path": "system.runtime/4.3.0",
       "files": [
         ".nupkg.metadata",
-        "System.Runtime.4.3.0.nupkg.sha512",
-        "System.Runtime.nuspec",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -2971,7 +2977,9 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.runtime.4.3.0.nupkg.sha512",
+        "system.runtime.nuspec"
       ]
     },
     "System.Runtime.Caching/5.0.0": {
@@ -3303,8 +3311,7 @@
       "path": "system.text.encoding/4.3.0",
       "files": [
         ".nupkg.metadata",
-        "System.Text.Encoding.4.3.0.nupkg.sha512",
-        "System.Text.Encoding.nuspec",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3361,7 +3368,9 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.text.encoding.4.3.0.nupkg.sha512",
+        "system.text.encoding.nuspec"
       ]
     },
     "System.Text.Encoding.CodePages/5.0.0": {
@@ -3513,8 +3522,7 @@
       "path": "system.threading.tasks/4.3.0",
       "files": [
         ".nupkg.metadata",
-        "System.Threading.Tasks.4.3.0.nupkg.sha512",
-        "System.Threading.Tasks.nuspec",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3571,7 +3579,9 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.threading.tasks.4.3.0.nupkg.sha512",
+        "system.threading.tasks.nuspec"
       ]
     },
     "System.Threading.Tasks.Extensions/4.5.4": {
@@ -3635,8 +3645,8 @@
     },
     "GestionAssurance.ApplicationCore/1.0.0": {
       "type": "project",
-      "path": "../Examen.ApplicationCore/GestionAssurance.ApplicationCore.csproj",
-      "msbuildProject": "../Examen.ApplicationCore/GestionAssurance.ApplicationCore.csproj"
+      "path": "../GestionAssurance.ApplicationCore/GestionAssurance.ApplicationCore.csproj",
+      "msbuildProject": "../GestionAssurance.ApplicationCore/GestionAssurance.ApplicationCore.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3654,11 +3664,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\chalg\\OneDrive\\Bureau\\GestionAssurance\\Examen.Infrastructure\\GestionAssurance.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\chalg\\OneDrive\\Bureau\\.NET\\GestionAssurance_ASP.NET\\GestionAssurance.Infrastructure\\GestionAssurance.Infrastructure.csproj",
       "projectName": "GestionAssurance.Infrastructure",
-      "projectPath": "C:\\Users\\chalg\\OneDrive\\Bureau\\GestionAssurance\\Examen.Infrastructure\\GestionAssurance.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\chalg\\OneDrive\\Bureau\\.NET\\GestionAssurance_ASP.NET\\GestionAssurance.Infrastructure\\GestionAssurance.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\chalg\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\chalg\\OneDrive\\Bureau\\GestionAssurance\\Examen.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\chalg\\OneDrive\\Bureau\\.NET\\GestionAssurance_ASP.NET\\GestionAssurance.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\chalg\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3675,8 +3685,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\chalg\\OneDrive\\Bureau\\GestionAssurance\\Examen.ApplicationCore\\GestionAssurance.ApplicationCore.csproj": {
-              "projectPath": "C:\\Users\\chalg\\OneDrive\\Bureau\\GestionAssurance\\Examen.ApplicationCore\\GestionAssurance.ApplicationCore.csproj"
+            "C:\\Users\\chalg\\OneDrive\\Bureau\\.NET\\GestionAssurance_ASP.NET\\GestionAssurance.ApplicationCore\\GestionAssurance.ApplicationCore.csproj": {
+              "projectPath": "C:\\Users\\chalg\\OneDrive\\Bureau\\.NET\\GestionAssurance_ASP.NET\\GestionAssurance.ApplicationCore\\GestionAssurance.ApplicationCore.csproj"
             }
           }
         }
@@ -3704,6 +3714,8 @@
             "version": "[7.0.3, )"
           },
           "Microsoft.EntityFrameworkCore.Tools": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
             "target": "Package",
             "version": "[7.0.3, )"
           }

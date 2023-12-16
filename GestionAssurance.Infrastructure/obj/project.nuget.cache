@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2d1H3lORdaTUfJJXNxmYk1bfW9XjpvMGJlkTH4CB4q+YoXHwMauQjZi0c9lvsYGyYpQkI+aT8nLYHqnBXcMFjg==",
+  "dgSpecHash": "oxvP/jPutPzHndvKsOGRs2KDKjAkYJfC5+rXhccSdqGZjjIAcdH8du5S8f719YzwrNLabO8+jxEjzXfjVBFSPQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\chalg\\OneDrive\\Bureau\\GestionAssurance\\Examen.Infrastructure\\GestionAssurance.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\chalg\\OneDrive\\Bureau\\.NET\\GestionAssurance_ASP.NET\\GestionAssurance.Infrastructure\\GestionAssurance.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chalg\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\chalg\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

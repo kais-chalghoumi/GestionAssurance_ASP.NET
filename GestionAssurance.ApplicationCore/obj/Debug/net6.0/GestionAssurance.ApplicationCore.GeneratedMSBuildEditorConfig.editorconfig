@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GestionAssurance.ApplicationCore
-build_property.ProjectDir = C:\Users\chalg\OneDrive\Bureau\GestionAssurance\Examen.ApplicationCore\
+build_property.ProjectDir = C:\Users\chalg\OneDrive\Bureau\.NET\GestionAssurance_ASP.NET\GestionAssurance.ApplicationCore\
